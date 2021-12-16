@@ -773,6 +773,7 @@
     font-size: 1.2rem;
     line-height: 1.2rem;
     color: var(--primary-color);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .search__cart-list {
@@ -993,7 +994,7 @@
 .header__sort-link--active::after {
     content: "";
     position: absolute;
-    top: 97%;
+    top: 92%;
     left: 0;
     right: 0;
     border-bottom: 1px solid var(--primary-color);
